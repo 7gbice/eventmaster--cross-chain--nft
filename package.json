@@ -1,18 +1,17 @@
 {
+  "name": "hardhat-project",
   "devDependencies": {
-    "hardhat": "^2.19.2",
-    "hardhat-deploy": "^0.11.44",
-    "prettier": "^3.1.1",
-    "ts-node": "^10.9.2",
-    "typescript": "^5.3.3"
+    "@matterlabs/hardhat-zksync-solc": "^1.0.4",
+    "@matterlabs/hardhat-zksync-verify": "^1.2.1",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "hardhat": "^2.19.2"
   },
   "dependencies": {
+    "@chainlink/contracts": "^0.5.1",
     "@chainlink/contracts-ccip": "^0.0.0",
     "@openzeppelin/contracts": "^5.0.1",
-    "chai": "^4.3.10",
     "dotenv": "^16.3.1",
-    "ethers": "^5.7.2",
-    "fs-extra": "^11.2.0",
-    "qrcode": "^1.5.3"
+    "ethers": "^6.9.0",
+    "hardhat-deploy-ethers": "^0.4.1"
   }
 }
